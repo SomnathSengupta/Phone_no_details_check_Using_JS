@@ -1,9 +1,9 @@
-let url = 'https://phone-number-validator6.p.rapidapi.com/validate?number=%2B918500054770';
+let url = 'Own-url';
 const options = {
 	method: 'GET',
 	headers: {
-		'x-rapidapi-key': 'dc4fb00ab2mshbc036770c2adb05p1c69fejsn5221ca4469e7',
-		'x-rapidapi-host': 'phone-number-validator6.p.rapidapi.com'
+		'x-rapidapi-key': 'Own-Key',
+		'x-rapidapi-host': 'phone-number-validator6.p.rapidapi.co'
 	}
 };
 
@@ -35,6 +35,6 @@ getData = async() => {
 }
 
 button.addEventListener("click", () => {
-	url = `https://phone-number-validator6.p.rapidapi.com/validate?number=%2B${display.value}`;
+	url = `Own-url${display.value}`;
 	getData();
 })
