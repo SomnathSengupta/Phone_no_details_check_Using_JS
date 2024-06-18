@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./style.css"/>
+</head>
+<body>
+    <p class = "heading">Get info of any Phone Number</p>
+    <div class="container">
+        <div class="app">
+            <p>Enter A Number With The Country Code Before:</p>
+            <input type = "number" placeholder="Enter the number" class = "inp"/>
+            <button class = "search"><img src = "./Search.png" height="25px" width="25px"></button>
+            <div class = "details hide">
+                <p class = "country">Country: <span id = "cou">India</span></p>
+                <p class = "iso">Country-ISO: <span id = "iso">IN</span></p>
+                <p class = "carrier">Carrier: <span id = "car">BSNL MOBILE</span></p>
+            </div>
+            <center>
+                <button class = "invalid hide">Invalid Number</button>
+            </center>
+        </div>
+    </div>
+
+    <script src = "./script.js"></script>
+</body>
+</html>
